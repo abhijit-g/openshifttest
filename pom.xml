@@ -19,13 +19,15 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <parent>
+    <!--parent>
         <groupId>org.wildfly.quickstarts</groupId>
         <artifactId>wildfly-quickstarts-parent</artifactId>
         <version>8.0.0-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
-    </parent>
+    </parent-->
+    <groupId>org.wildfly.quickstarts</groupId>
     <artifactId>wildfly-kitchensink-angularjs</artifactId>
+    <version>8.0.0-SNAPSHOT</version>    
     <packaging>war</packaging>
     <name>WildFly Quickstarts: Kitchensink with AngularJS</name>
     <description>A starter Java EE 7 webapp project for use on WildFly 8 / EAP 6, generated from the jboss-javaee6-webapp archetype, using AngularJS for the view
