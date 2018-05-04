@@ -307,6 +307,7 @@
                         <configuration>
                             <outputDirectory>deployments</outputDirectory>
                             <warName>ROOT</warName>
+							<webXml>src\main\webapp\WEB-INF\web.xml</webXml>     
                         </configuration>
                     </plugin>
                 </plugins>
